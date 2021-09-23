@@ -1,5 +1,7 @@
 ## Climate Displacement
 
+![image](https://user-images.githubusercontent.com/59842246/134459370-15d11487-f5db-4702-84e7-632e74a90dd9.png)
+
 ### Predicting Climate Migration and Refugees
 Climate disasters, induced by the changing climate, are becoming increasingly prevalent. These disasters are not only causing irreparable harm to the environment, but are also creating a surge of migrants and refugees. This research seeks to create a model to predict the number of people - both climate migrants and refugees -  displaced by climate disasters in a given area. 
 
