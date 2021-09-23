@@ -8,3 +8,5 @@ Climate disasters, induced by the changing climate, are becoming increasingly pr
 A neural network producing accurate numbers of displaced people is difficult to produce for two key reasons - 1. there is no concrete combination or set of variables that inevitably lead to climate displacement and 2. there is no centralized data source for this information. This research will set out to solve both challenges by creating a custom dataset with a large variety of variables. The neural network will be trained on all of these variables - deciding itself which is an important predictor in climate displacement. Multiple types of neural networks will be trained and validated, ultimately the most accurate model will be chosen.
 
 This research will also include an ethical assessment. It will explore weaknesses in the dataset which may produce bias in the model - including some communities being over or under represented. It will also seek to understand the role of climate justice in the context the predictive model.
+
+Group: Ben Luo & Neely Yates
