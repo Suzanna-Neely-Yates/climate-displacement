@@ -9,4 +9,27 @@ A neural network producing accurate numbers of displaced people is difficult to 
 
 This research will also include an ethical assessment. It will explore weaknesses in the dataset which may produce bias in the model - including some communities being over or under represented. It will also seek to understand the role of climate justice in the context the predictive model.
 
+____________________________
+### Related Works
+
+In order to design a comprehensive neural network that encompasses and addresses the factors primarily causing climate migration, it is important to first examine the political and environmental climate that leads to such displacement. In a recent study, Governing climate displacement: the ethics and politics of human resettlement, researchers found that climate change is projected to raise difficult ethical issues about what governments and international organizations should do to protect human populations displaced by climate disasters and long term environment change. When migration is planned and supported through public policy, it can stabilize and diversify livelihoods as well as reduce potential vulnerabilities to environment shocks that could result in severe consequences if not for planning. However, currently governments often actively discourage migration by using labor codes, land use restrictions, and other policy instruments in order to control movement and settlement of various populations.
+ 
+Furthermore, research Conceptualising Climate-Induced Displacement examined a current debate on the level of influence of climate change and related natural events on displacement in the world; some believe that it is quite plausibly the direct cause and factor leading the displacement, coining the term “climate induced displacement”, while others believe that it is only one of a multitude of factors of a complex problem that is displacement. Climate change can already be felt and observed today, making it crucial to take action in attempt to mitigate the impacts of natural hazards on climate induced displacement.
+
+Research examining migration patterns, caused by climate change, have primarily been examined and modeled with direct correlations to sea level rise. A key study, Modeling migration patterns in the USA under sea level rise, modeled the future patterns of climate migration based on current NOAA digital coast datasets, small area population projects and a Machine Learning method for modeling human migration. After modeling the initial impacts of sea level rise, researchers used a artificial neural network (ANN) method previously fit with county migration data from the United States in order to ultimate determine climate migration predictions. The methodology and design of the models enabled researchers to produce new results that were able to differentiate between the impacts of migration, both directly and indirectly caused by sea level rise, from historical trends in migration. 
+
+Another study that attempts to model climate displacement in a different manner is Drought Displacement in Kenya, Ethiopia and Somalia. Researchers developed a Pastoralist Livelihood and Displacement Simulator which produced seemingly accurate estimates of displacement caused by drought throughout the horn of Africa. Unlike the previous model, this simulator includes climate, environment and social science data into a system dynamics model, a model commonly used to examine population movements and behavior of systems. However, due to data discrepancies in specific parts of the horn of Africa as well as social impacts such as changes in family structures and education, researchers recommend that the model be improved.
+
+____________________________
+### Bibliography
+
+Craig A. Johnson (2012) Governing climate displacement: the ethics and politics of human resettlement, Environmental Politics, 21:2, 308-328, DOI: 10.1080/09644016.2012.651905
+
+Ginnetti, Justin, and Travis Franck. “Horn of Africa Technical Report - IDMC.” Norwegian Refugee Council (NRC), Internal Displacement Monitoring Centre (IDMC), https://www.internal-displacement.org/sites/default/files/publications/documents/201405-horn-of-africa-technical-report-en.pdf 
+
+Robinson C., Dilkina B., Moreno-Cruz J. Modeling migration patterns in the USA under sea level rise. PLoS ONE. 2020;15(1) doi: 10.1371/journal.pone.0227436
+
+Walter Kälin, ‘Conceptualising Climate-Induced Displacement’ in Jane McAdam (ed.), Climate Change and Displacement: Multidisciplinary Perspectives (Oxford: Hart Publishing, 2010) pp. 81-103.
+
+____________________________
 Group: Ben Luo & Neely Yates
