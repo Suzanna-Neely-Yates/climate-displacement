@@ -32,4 +32,13 @@ Robinson C., Dilkina B., Moreno-Cruz J. Modeling migration patterns in the USA u
 Walter Kälin, ‘Conceptualising Climate-Induced Displacement’ in Jane McAdam (ed.), Climate Change and Displacement: Multidisciplinary Perspectives (Oxford: Hart Publishing, 2010) pp. 81-103.
 
 ____________________________
+### Update #1
+
+This project will entail creating a custom dataset, utilizing two existing datasets from the IRS and Federal Emergencies and Disasters Agency (FEMA). The IRS Dataset, State-to-State US Migration Data (1990-2011) {https://www.irs.gov/statistics/soi-tax-stats-migration-data}, contains records of the number of US Citizens moving between states which includes the attributes such as Year, State and Number of Migrants. The FEMA, Federal Emergencies and Disasters (1953-Present) {https://www.kaggle.com/fema/federal-disasters}, dataset includes records of major natural disasters which include hurricanes, tornados, storms, high waters, wind-driven waters, tidal waves, tsunamis, earthquakes, volcanic eruptions, landslides, mudslides, snowstorms, or droughts, fires, floods, or explosions. Each natural disaster is then associated with attributes such as State, Start Date, End Date and more. The two datasets will then be merged based on mutual attributes - year and state.
+
+We will be utilizing the Pytorch machine learning framework within Jupyter Notebook in order to execute this project. Though we will write our own code, we will be feeding our data into existing machine learning models and neural network frameworks. We will be experimenting with various neural networks to decide which will best fit our problem. 
+
+Numeric attributes from our dataset will be fed into these various models of neural networks. Ultimately, we are seeking an output similar to a standard regression problem. Our project seeks to determine the relationship between variables - migration and natural diasters - in order to predict future climate migration patterns utilizing various neural network models. The output will ultimately be the number of predicted migrants due to natural disasters.
+
+____________________________
 Group: Ben Luo & Neely Yates
