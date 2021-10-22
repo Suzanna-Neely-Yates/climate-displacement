@@ -42,4 +42,15 @@ Numeric attributes from our dataset will be fed into these various models of neu
 
 
 ____________________________
+### Update #2
+
+The majority of the work that we have been doing revolves around gathering and cleaning data. Our two current datasets, SOI Tax Stats - Migration Data (Internal Revenue Service and Federal Emergencies) and Disasters, 1953-Present (Federal Emergency Management Agency) have common attributes to join the tables on, however, some of the attributes do not match up. This requires us to manually match some of the states and locations to each other which has taken a fair amount of time. We are still in the process of joining the datasets.
+
+In the meantime, we are also searching for other data sources which may provide more in-depth information about climate disasters in given smaller areas or regions. The main concerns that we have found here is that the data is incomplete or not as detailed as we would like.
+
+Finally, our group is aiming for an A in this project. We have to complete all of the updates and tasks to the best of our ability.
+
+____________________________
+
+
 Group: Ben Luo & Neely Yates
