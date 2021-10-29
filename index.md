@@ -52,6 +52,9 @@ In the meantime, we are also searching for other data sources which may provide 
 Finally, our group is aiming for an A in this project. We have to complete all of the updates and tasks to the best of our ability.
 
 ____________________________
+### Methods
 
+
+____________________________
 
 Group: Ben Luo & Neely Yates
