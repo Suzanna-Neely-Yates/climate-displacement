@@ -54,9 +54,8 @@ Finally, our group is aiming for an A in this project. We have to complete all o
 ____________________________
 ### Methods
 
-We will be using Jupyter Notebook for this project, utilizing the Python programming language. Pytorch will be imported and ultilized in order to build our neural network. We will create multiple neural networks with the Pytorch models, analyzing how well each neural network model does with our data.
+We will be using Jupyter Notebook for this project, utilizing the Python programming language. Pytorch and fastai will be imported and utilized; using the tools that we have from these packages, we will first figure out a pathway for which we can merge existing datasets. Then, we can create a neural network to create a model based on our data. We will create multiple neural networks with the Pytorch models, analyzing how well each neural network model does with our data.
 
-Migration Data (SQI Tax Stats) and Federal Emergency Management Agency (Disasters 1953-Present) will be joined. This joined dataset will serve as our primary dataset for this research. As previously discussed, this dataset will be fed into various Pytorch neural networks. We will analyize and explore which neural network models work best with our given dataset.
+Migration Data (SQI Tax Stats) and Federal Emergency Management Agency (Disasters 1953-Present) will be joined. This joined dataset will serve as our primary dataset for this research. As previously discussed, this dataset will be fed into various Pytorch neural networks. We will analyze and explore which neural network models work best with our given dataset.
 ____________________________
-
 Group: Ben Luo & Neely Yates
