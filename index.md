@@ -58,4 +58,8 @@ We will be using Jupyter Notebook for this project, utilizing the Python program
 
 Migration Data (SQI Tax Stats) and Federal Emergency Management Agency (Disasters 1953-Present) will be joined. This joined dataset will serve as our primary dataset for this research. As previously discussed, this dataset will be fed into various Pytorch neural networks. We will analyze and explore which neural network models work best with our given dataset.
 ____________________________
+## Discussion
+
+A key aspect of our work which differentiates it from other related climate migration studies is both the scope and methods of prediction used. Previous works focus on predicting climate migration due to specific types of natural disasters. For example, sea level rise. However, this work seeks to understand the interconnection between a large variety of natural disasters in causing climate migration in the United States. Additionally, this work trains the custom dataset with a variety of neural networks, ultimately evaluating the most effective neural networks at predicting climate migration. Learning about these specific neural network structures are key concepts which we have learned and continue to build on in this study.
+
 Group: Ben Luo & Neely Yates
