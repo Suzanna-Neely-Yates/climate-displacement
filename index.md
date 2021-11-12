@@ -60,6 +60,8 @@ Migration Data (SQI Tax Stats) and Federal Emergency Management Agency (Disaster
 ____________________________
 ## Discussion
 
+We will present a dataset that is the culmination of two datasets that has been wrangled and merged into a dataset with the data that we believe is important for our investigation. We will put this data through various neural networks to figure out the most effective form of neural network for our problem. Evaluation and interpretations of our data from the various neural networks we attempt to put our dataset through will primarily be used to figure out what are the biggest factors of climate displacement. We can also analyze how influential the severity of various disaster types can impact the number of people that are forced to either permanently or temporarily migrate away from an affected area, on a state level.
+
 A key aspect of our work which differentiates it from other related climate migration studies is both the scope and methods of prediction used. Previous works focus on predicting climate migration due to specific types of natural disasters. For example, sea level rise. However, this work seeks to understand the interconnection between a large variety of natural disasters in causing climate migration in the United States. Additionally, this work trains the custom dataset with a variety of neural networks, ultimately evaluating the most effective neural networks at predicting climate migration. Learning about these specific neural network structures are key concepts which we have learned and continue to build on in this study.
 
 Group: Ben Luo & Neely Yates
