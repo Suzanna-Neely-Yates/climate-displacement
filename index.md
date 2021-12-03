@@ -22,11 +22,36 @@ Research examining migration patterns, caused by climate change, have primarily 
 Another study that attempts to model climate displacement in a different manner is <i>Drought Displacement in Kenya, Ethiopia and Somalia</i>. Researchers developed a Pastoralist Livelihood and Displacement Simulator which produced seemingly accurate estimates of displacement caused by drought throughout the horn of Africa. Unlike the previous model, this simulator includes climate, environment and social science data into a system dynamics model, a model commonly used to examine population movements and behavior of systems. However, due to data discrepancies in specific parts of the horn of Africa as well as social impacts such as changes in family structures and education, researchers recommend that the model be improved.
 
 ____________________________
+### Methods
+
+All code for this research was hosted on a GitHub repository. This repository contains a description of the research, a Jupyter Notebook with code to clean the data and pass it through various neural networks as well as a separate folder containing the raw data.
+
+Within the Jupyter Notebook, all code was written in the Python programming language. Furthermore, both the pandas and numpy libraries were imported in order to clean and merge the datasets, Migration Data (SQI Tax Stats) and Federal Emergency Management Agency (Disasters 1953-Present).
+
+Finally, the neural networks utilized in this project were created using the Fastai library. Existing models from Fastai were used to created the neural networks. Finally, our cleaned dataset was fed into these various Fastai neural network models.
+____________________________
+## Discussion
+
+Our dataset will be fed into various neural networks to determine the most effective model for predicting climate refugees. Evaluation and interpretations of our data from the various neural networks we attempt to put our dataset through will primarily be used to figure out what the biggest factors of climate displacement are. We can also analyze how influential the severity of various disaster types can impact the number of people that are forced to either permanently or temporarily migrate away from an affected area, on a state level.
+
+A key aspect of our work which differentiates it from other related climate migration studies is both the scope and methods of prediction used. Previous works focus on predicting climate migration due to specific types of natural disasters. For example, sea level rise. However, this work seeks to understand the interconnection between a large variety of natural disasters in causing climate migration in the United States. Additionally, this work trains the custom dataset with a variety of neural networks, ultimately evaluating the most effective neural networks at predicting climate migration. Learning about these specific neural network structures are key concepts which we have learned and continue to build on in this study.
+
+____________________________
+## Ethics
+
+In order to fully understand the ethical implications of our research, it is important to analyze both the inputs to the neural network as well as the use cases for the outputs of the neural networks. Despite efforts to find an unbiased datasource, it is clear that the dataset input into the neural network contains bias. First, the dataset, SOI Tax Stats - Migration Data (Internal Revenue Service and Federal Emergencies), only contains data of US citizens. Thus, any other person living in the US without this status including undocumented people, homeless people and others will be left out. This means that migration of potentially vulnerable populations will unfortunately not be included in the final migration estimates. Furthermore, due to environmental racism and failure to document climate disasters in more vulnerable areas, it is also possible that the 1953-Present (Federal Emergency Management Agency) dataset contains bias. Given the bias inputs to the neural network, the results of this research should be used with caution. 
+
+____________________________
+## Reflection
+
+Given the lack of data about climate migration, futures studies should seek to create new synthetic datasets. A plethora of synthetic data could provide better training, testing and ultimate results when working with neural networks. Further iterations of this research could compare results of using synthetic datasets to the results found in this research. 
+
+____________________________
 ### Bibliography
 
 Craig A. Johnson (2012) Governing climate displacement: the ethics and politics of human resettlement, Environmental Politics, 21:2, 308-328, DOI: 10.1080/09644016.2012.651905
 
-Ginnetti, Justin, and Travis Franck. “Horn of Africa Technical Report - IDMC.” Norwegian Refugee Council (NRC), Internal Displacement Monitoring Centre (IDMC), https://www.internal-displacement.org/sites/default/files/publications/documents/201405-horn-of-africa-technical-report-en.pdf 
+Ginnetti, Justin, and Travis Franck. “Horn of Africa Technical Report - IDMC.” Norwegian Refugee Council (NRC), Internal Displacement Monitoring Centre (IDMC), https://www.internal-displacement.org/sites/default/files/publications/documents/201405-horn-of-africa-technical-report-en.pdf
 
 Robinson C., Dilkina B., Moreno-Cruz J. Modeling migration patterns in the USA under sea level rise. PLoS ONE. 2020;15(1) doi: 10.1371/journal.pone.0227436
 
@@ -51,18 +76,5 @@ In the meantime, we are also searching for other data sources which may provide 
 
 Finally, our group is aiming for an A in this project. We have to complete all of the updates and tasks to the best of our ability.
 
-____________________________
-### Methods
-
-We will be using Jupyter Notebook for this project, utilizing the Python programming language. Pytorch and fastai will be imported and utilized; using the tools that we have from these packages, we will first figure out a pathway for which we can merge existing datasets. Then, we can create a neural network to create a model based on our data. We will create multiple neural networks with the Pytorch models, analyzing how well each neural network model does with our data.
-
-Migration Data (SQI Tax Stats) and Federal Emergency Management Agency (Disasters 1953-Present) will be joined. This joined dataset will serve as our primary dataset for this research. As previously discussed, this dataset will be fed into various Pytorch neural networks. We will analyze and explore which neural network models work best with our given dataset.
-
-____________________________
-## Discussion
-
-We will present a dataset that is the culmination of two datasets that has been wrangled and merged into a dataset with the data that we believe is important for our investigation. We will put this data through various neural networks to figure out the most effective form of neural network for our problem. Evaluation and interpretations of our data from the various neural networks we attempt to put our dataset through will primarily be used to figure out what are the biggest factors of climate displacement. We can also analyze how influential the severity of various disaster types can impact the number of people that are forced to either permanently or temporarily migrate away from an affected area, on a state level.
-
-A key aspect of our work which differentiates it from other related climate migration studies is both the scope and methods of prediction used. Previous works focus on predicting climate migration due to specific types of natural disasters. For example, sea level rise. However, this work seeks to understand the interconnection between a large variety of natural disasters in causing climate migration in the United States. Additionally, this work trains the custom dataset with a variety of neural networks, ultimately evaluating the most effective neural networks at predicting climate migration. Learning about these specific neural network structures are key concepts which we have learned and continue to build on in this study.
 
 Group: Ben Luo & Neely Yates
