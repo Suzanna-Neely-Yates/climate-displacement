@@ -26,7 +26,7 @@ ____________________________
 
 All code for this research was hosted on a GitHub repository. This repository contains a description of the research, a Jupyter Notebook with code to clean the data and pass it through various neural networks as well as a separate folder containing the raw data.
 
-Within the Jupyter Notebook, all code was written in the Python programming language. Furthermore, both the pandas and numpy libraries were imported in order to clean and merge the datasets, Migration Data (SQI Tax Stats) and Federal Emergency Management Agency (Disasters 1953-Present).
+Within the Jupyter Notebook, all code was written in the Python programming language. Furthermore, several libraries (pandas, numpy, shutil, os, glob, csv) were imported in order to clean and merge the datasets, Migration Data (SQI Tax Stats) and Federal Emergency Management Agency (Disasters 1953-Present). The initial dataset files were in an Excel format, and converted into csv, into the pandas.DataFrame datatype in order to extract and merge the datasets.
 
 Finally, the neural networks utilized in this project were created using the Fastai library. Existing models from Fastai were used to created the neural networks. Finally, our cleaned dataset was fed into these various Fastai neural network models.
 
