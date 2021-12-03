@@ -30,7 +30,6 @@ Within the Jupyter Notebook, all code was written in the Python programming lang
 
 Finally, the neural networks utilized in this project were created using the Fastai library. Existing models from Fastai were used to created the neural networks. Finally, our cleaned dataset was fed into these various Fastai neural network models.
 ____________________________
-
 ## Discussion
 
 Our dataset will be fed into various neural networks to determine the most effective model for predicting climate refugees. Evaluation and interpretations of our data from the various neural networks we attempt to put our dataset through will primarily be used to figure out what the biggest factors of climate displacement are. We can also analyze how influential the severity of various disaster types can impact the number of people that are forced to either permanently or temporarily migrate away from an affected area, on a state level.
