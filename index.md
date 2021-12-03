@@ -11,7 +11,7 @@ It is difficult to train a neural network to accurately predict numbers of displ
 This research will also include an ethical assessment. It will explore weaknesses in the dataset which may produce bias in the model - including some communities being over or under represented. It will also seek to understand the role of climate justice in the context the predictive model.
 
 ____________________________
-### Related Works
+## Related Works
 
 In order to design a comprehensive neural network that encompasses and addresses the factors primarily causing climate migration, it is important to first examine the political and environmental climate that leads to such displacement. In a recent study, [Governing climate displacement: the ethics and politics of human resettlement](https://www.tandfonline.com/doi/full/10.1080/09644016.2012.651905), researchers found that climate change is projected to raise difficult ethical issues about what governments and international organizations should do to protect human populations displaced by climate disasters and long term environment change. When migration is planned and supported through public policy, it can stabilize and diversify livelihoods as well as reduce potential vulnerabilities to environment shocks that could result in severe consequences if not for planning. However, currently governments often actively discourage migration by using labor codes, land use restrictions, and other policy instruments in order to control movement and settlement of various populations.
 
@@ -22,7 +22,7 @@ Research examining migration patterns, caused by climate change, have primarily 
 Another study that attempts to model climate displacement in a different manner is <i>Drought Displacement in Kenya, Ethiopia and Somalia</i>. Researchers developed a Pastoralist Livelihood and Displacement Simulator which produced seemingly accurate estimates of displacement caused by drought throughout the horn of Africa. Unlike the previous model, this simulator includes climate, environment and social science data into a system dynamics model, a model commonly used to examine population movements and behavior of systems. However, due to data discrepancies in specific parts of the horn of Africa as well as social impacts such as changes in family structures and education, researchers recommend that the model be improved.
 
 ____________________________
-### Methods
+## Methods
 
 All code for this research was hosted on a GitHub repository. This repository contains a description of the research, a Jupyter Notebook with code to clean the data and pass it through various neural networks as well as a separate folder containing the raw data.
 
@@ -30,6 +30,7 @@ Within the Jupyter Notebook, all code was written in the Python programming lang
 
 Finally, the neural networks utilized in this project were created using the Fastai library. Existing models from Fastai were used to created the neural networks. Finally, our cleaned dataset was fed into these various Fastai neural network models.
 ____________________________
+
 ## Discussion
 
 Our dataset will be fed into various neural networks to determine the most effective model for predicting climate refugees. Evaluation and interpretations of our data from the various neural networks we attempt to put our dataset through will primarily be used to figure out what the biggest factors of climate displacement are. We can also analyze how influential the severity of various disaster types can impact the number of people that are forced to either permanently or temporarily migrate away from an affected area, on a state level.
@@ -47,7 +48,7 @@ ____________________________
 Given the lack of data about climate migration, futures studies should seek to create new synthetic datasets. A plethora of synthetic data could provide better training, testing and ultimate results when working with neural networks. Further iterations of this research could compare results of using synthetic datasets to the results found in this research. 
 
 ____________________________
-### Bibliography
+## Bibliography
 
 Craig A. Johnson (2012) Governing climate displacement: the ethics and politics of human resettlement, Environmental Politics, 21:2, 308-328, DOI: 10.1080/09644016.2012.651905
 
@@ -58,7 +59,7 @@ Robinson C., Dilkina B., Moreno-Cruz J. Modeling migration patterns in the USA u
 Walter Kälin, ‘Conceptualising Climate-Induced Displacement’ in Jane McAdam (ed.), Climate Change and Displacement: Multidisciplinary Perspectives (Oxford: Hart Publishing, 2010) pp. 81-103.
 
 ____________________________
-### Update #1
+## Update #1
 
 This project will entail creating a custom dataset, utilizing two existing datasets from the IRS and Federal Emergencies and Disasters Agency (FEMA). The IRS Dataset, State-to-State US Migration Data (1990-2011) [SOI Tax Stats - Migration Data, Internal Revenue Service](https://www.irs.gov/statistics/soi-tax-stats-migration-data), contains records of the number of US Citizens moving between states which includes the attributes such as Year, State and Number of Migrants. The FEMA, Federal Emergencies and Disasters (1953-Present) [Federal Emergencies and Disasters, 1953-Present, Federal Emergency Management Agency](https://www.kaggle.com/fema/federal-disasters), dataset includes records of major natural disasters which include hurricanes, tornados, storms, high waters, wind-driven waters, tidal waves, tsunamis, earthquakes, volcanic eruptions, landslides, mudslides, snowstorms, or droughts, fires, floods, or explosions. Each natural disaster is then associated with attributes such as State, Start Date, End Date and more. The two datasets will then be merged based on mutual attributes - year and state.
 
@@ -68,7 +69,7 @@ Numeric attributes from our dataset will be fed into these various models of neu
 
 
 ____________________________
-### Update #2
+## Update #2
 
 The majority of the work that we have been doing revolves around gathering and cleaning data. Our two current datasets, SOI Tax Stats - Migration Data (Internal Revenue Service and Federal Emergencies) and Disasters, 1953-Present (Federal Emergency Management Agency) have common attributes to join the tables on, however, some of the attributes do not match up. This requires us to manually match some of the states and locations to each other which has taken a fair amount of time. We are still in the process of joining the datasets.
 
