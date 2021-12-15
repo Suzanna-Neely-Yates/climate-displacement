@@ -87,7 +87,7 @@ The following graph display migration trends in the United States between the ye
 
 This next finding shows the total amount of natural disasters recorded over the time period of 1990 to 2021. There is a clear increase in the number of natural disaster recorded by FEMA each year. 
 
-![image](https://github.com/Suzanna-Neely-Yates/climate-displacement/blob/gh-pages/code/total_disasters.png)
+![image](./code/total_disasters.png)
 
 This next graph shows the frequency of difference natural disaster types that occured between the years of 1990 to 2010. It is apparent that drought and fire are the top natural disasters. Dought is currently on an upward trend. 
 
