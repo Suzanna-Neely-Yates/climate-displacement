@@ -17,6 +17,7 @@ This research seeks to overcome both challenges by creating a custom dataset whi
 The custom dataset was be comprised of US state-to-state migration data and all climate disasters classified as emergencies by the Federal Emergency Management Agency (FEMA). Utilizing the custom dataset, the number specific disaster types per year were used in order to predict climate migration. The neural network output a prediction of the migrants based on complex patterns in the types and number of natural disasters each year. Though the predictions from the neural network were not extremely accurate, this research did find that certain measures of climate disasters can likely predict drivers behind general migration patterns in the US.
 
 An ethical assessment was also conducted to explore the potential implications of utilizing such a model. It explored the weaknesses in the dataset which may product bias in the neural network model - specifically within the context of climate justice. 
+
 ____________________________
 ## Literature Review
 
