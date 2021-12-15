@@ -83,7 +83,7 @@ Our research sought to understand the various correlations and trends between mi
 
 The following graph display migration trends in the United States between the years of 1990 and 2010. It is evident that despite specific outliers, migration increases slowly, but remained very stable during this period of time. 
 
-![graph](https://drive.google.com/file/d/1vIQ7utl2hvgzISRCX9ZgdupnzB4lnc5r/view?usp=sharing)
+![graph](migrants.png)
 
 This next finding shows the total amount of natural disasters recorded over the time period of 1990 to 2021. There is a clear increase in the number of natural disaster recorded by FEMA each year. 
 
@@ -91,13 +91,13 @@ This next finding shows the total amount of natural disasters recorded over the 
 
 This next graph shows the frequency of difference natural disaster types that occured between the years of 1990 to 2010. It is apparent that drought and fire are the top natural disasters. Dought is currently on an upward trend. 
 
-![image](https://github.com/Suzanna-Neely-Yates/climate-displacement/blob/gh-pages/code/disaster_types.png)
+![image](disaster_types.png)
 
 In order to understand how each natural disaster impacted the number of migrants each year, we queried the top correlations between each given type of migration. NOE(I) or the number of household inflow movements correlated the highest with the total number of natural disasters in a given year (correlation = 0.0123). NOE(O) or number of individual outflow movements correlated highest with the total number of natural disaster in a year as well (correlation = 0.0123). However, NOR(I) or number of household inflow movements correlated with the number of fires per year (correlation = 0.0037). Finally, NOE(O) or number of individual outflow movements correlated highest with the number of storm disasters in a year (Correlation: 0.0017).  
 
 The following heatmap was created in order to demonstration the correlations - the driving factors - between migrants in the United States. It is important to note that these correlations do not necessarily show necessarily show cause (disaster) and effect (migration). Future work would need to be conducted to confirm that these disasters are motivating factors of climate migration. 
 
-![image](https://github.com/Suzanna-Neely-Yates/climate-displacement/blob/gh-pages/code/heat_correlations.png)
+![image](heat_correlations.png)
 
 The final aspect of this study was placing the data through a neural network. The number of different natural disaster for each year was the input and the different types of migration movements - NOE(I), NOE(O) and NOE(O) - were the outputs. Unfortunately since there were only 20 years of data, there were only 20 rows of data to train our model on. The following is the output of the training to our neural network utilizing Fastai’s Tabular model. The training and validation loss after 100 epochs, each with a batch size of two are displayed. All hyperparameters were automatically set by Fastai.
 
@@ -110,7 +110,7 @@ _ | epoch | train_loss | valid_loss | mse | mae | time |
 4 | 1.537006 | 9.387090 | 9.387090 | 2.136368 | 00:00
 ... | ... | ... | ... | ... | ....|
 
-![image](https://github.com/Suzanna-Neely-Yates/climate-displacement/blob/gh-pages/code/loss_neural_net.png)
+![image](loss_neural_net.png)
 
 It is evident that as the training loss decreases, the validation loss increases. Though we are unsure as to why we observed this result, it is probable that the dataset was too small to create an accurate model. Another potential explanation is that there was some aspect of the Fastai back-end that interacted with our model in an unexpected way. Thus, the outputs to the neural network were not extremely accurate given this model.
 
