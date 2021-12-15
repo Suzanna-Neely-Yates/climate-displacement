@@ -1,4 +1,4 @@
- ## Climate Displacement
+# Climate Displacement
 
 ![image](https://user-images.githubusercontent.com/59842246/134459370-15d11487-f5db-4702-84e7-632e74a90dd9.png)
 
