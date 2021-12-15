@@ -100,78 +100,14 @@ The following heatmap was created in order to demonstration the correlations - t
 
 The final aspect of this study was placing the data through a neural network. The number of different natural disaster for each year was the input and the different types of migration movements - NOE(I), NOE(O) and NOE(O) - were the outputs. Unfortunately since there were only 20 years of data, there were only 20 rows of data to train our model on. The following is the output of the training to our neural network utilizing Fastai’s Tabular model. The training and validation loss after 100 epochs, each with a batch size of two are displayed. All hyperparameters were automatically set by Fastai.
 
-epoch
-train_loss
-valid_loss
-mse
-mae
-time
-0
-1.739364
-0.110877
-0.110877
-0.293532
-00:00
-1
-1.683594
-0.181669
-0.181669
-0.351264
-00:00
-2
-1.512090
-0.636447
-0.636447
-0.623331
-00:00
-3
-1.569106
-1.822774
-1.822774
-0.992073
-00:00
-4
-1.537006
-9.387090
-9.387090
-2.136368
-00:00
-5
-1.521437
-21.640129
-21.640129
-3.013769
-00:00
-6
-1.456443
-56.963390
-56.963390
-4.187264
-00:00
-7
-1.472039
-90.753242
-90.753242
-6.302396
-00:00
-8
-1.470919
-259.929504
-259.929504
-9.291641
-00:00
-9
-1.490228
-1111.758179
-1111.758179
-20.503084
-00:00
-10
-1.467915
-2159.322021
-2159.322021
-29.068279
-00:00
+_ | epoch | train_loss | valid_loss | mse | mae | time | 
+| --- | --- | --- | --- | --- | --- | --- |
+0 | 1.739364 | 0.110877 | 0.110877 | 0.293532 | 00:00
+1 | 1.683594 | 0.181669 | 0.181669 | 0.351264 | 00:00
+2 | 1.512090 | 0.636447 | 0.636447 | 0.623331 | 00:00
+3 | 1.569106 | 1.822774 | 1.822774 | 0.992073 | 00:00
+4 | 1.537006 | 9.387090 | 9.387090 | 2.136368 | 00:00
+... | ... | ... | ... | ... | ....|
 
 ![image](https://github.com/Suzanna-Neely-Yates/climate-displacement/blob/gh-pages/code/loss_neural_net.png)
 
