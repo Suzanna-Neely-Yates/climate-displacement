@@ -83,7 +83,7 @@ Our research sought to understand the various correlations and trends between mi
 
 The following graph display migration trends in the United States between the years of 1990 and 2010. It is evident that despite specific outliers, migration increases slowly, but remained very stable during this period of time. 
 
-![image](https://drive.google.com/file/d/1vIQ7utl2hvgzISRCX9ZgdupnzB4lnc5r/view?usp=sharing)
+![graph](https://drive.google.com/file/d/1vIQ7utl2hvgzISRCX9ZgdupnzB4lnc5r/view?usp=sharing)
 
 This next finding shows the total amount of natural disasters recorded over the time period of 1990 to 2021. There is a clear increase in the number of natural disaster recorded by FEMA each year. 
 
