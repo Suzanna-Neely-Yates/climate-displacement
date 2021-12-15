@@ -40,7 +40,6 @@ The Jupyter Notebook - the heart of this research - contains code all written in
 Preprocessing of the data was the first step taken in this research. A FEMA dataset, [Federal Emergencies and Disasters, 1953-Present, Federal Emergency Management Agency](https://www.kaggle.com/fema/federal-disasters), was imported in order to provide information about the types of natural disasters that occur each year in this United States. This dataset includes records of major natural diasters - hurricanes, tornados, storms, high waters, wind-driven waters, tidal waves, tsunamis, earthquakes, volcanic eruptions, landslides, mudslides, snowstorms, or droughts, fires, floods, or explosions. A new csv file was created from the raw data called “State_Disasters_by_Year.csv.” It contained the start year, end year, state and disaster types. The first five rows are pictured below:
 
 
-
 _ | State | Disaster Type| Start Year| End Year |
 | --- | --- | --- | --- | --- |
 0 | TX | Winter| 1989| 1989.0
@@ -50,11 +49,7 @@ _ | State | Disaster Type| Start Year| End Year |
 4 | TX | Winter | 1989 | 1989.0
 
 
-
 The second dataset, IRS Migration Data, State-to-State US Migration Data (1990-2011) [SOI Tax Stats - Migration Data, Internal Revenue Service](https://www.irs.gov/statistics/soi-tax-stats-migration-data), contains records of the number of US Citizens moving between states which includes the attributes such as year, state and number of migrants - further broken down into individual and family as well as inflow and outflow. A new csv file called “State_Migration_by_Year.csv” was created containing the state, year, number of household inflow movements - NOR(I), number of individual inflow movements - NOR(I), number of household outflow movements - NOE(O), and number of individual outflow movements - NOE(O). The first five rows are pictured below:
-
-
-
 
 _ | State | Year | NOR(I) | NOE(I) | NOR(O) | NOE(O) |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -63,77 +58,17 @@ _ | State | Year | NOR(I) | NOE(I) | NOR(O) | NOE(O) |
 2 | AL | 2010 | 42880.0 | 89794.0 | 43563.0 | 88001.0
 3 | MO | 2010 | 55637.0 | 106395.0 | 60740.0 | 115708.0
 4 | NC | 2010 | 114845.0 | 226709.0 | 101963.0 | 201396.0
-
  
 These two cleaned datasets were then merged into one file called “Neural_Network_Input.csv”. This file contained state, year, NOR(I), NOE(I), NOR(O), NOE(O) as well as a column for each natural disaster with a corresponding value of the amount of times each disaster occured in the given state and year. The first five rows are pictured below of the aggregate of “Neural_Network_Input.csv” by year. This new file was called “Total_Input_Training.csv”:
 
 
-
-State
-Year
-NOR(I)
-NOE(I)
-NOR(O)
-NOE(O)
-Drought
-...
-Winter
-Total disasters
-0
-All_States
-1990
-2907749
-5847606
-2890627
-5778931
-0
-...
-1
-31
-1
-All_States
-1991
-2945112
-5865274
-2812812
-5581421
-0
-...
-0
-35
-2
-All_States
-1992
-2963061
-5941502
-2862291
-5777889
-0
-...
-0
-38
-3
-All_States
-1993
-2917053
-5828928
-2846298
-5712493
-1
-...
-0
-47
-4
-All_States
-1994
-3018906
-5942498
-2937673
-5814595
-0
-...
-1
-32
+_ | State | Year | NOR(I) | NOE(I) | NOR(O) | NOE(O) | Drought | ... | Winter | Total disasters |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | 
+0 | All_States | 1990 | 2907749 | 5847606 | 2890627 | 5778931 | 0 | ... | 1 | 31
+1 | All_States | 1991 | 2945112 | 5865274 | 2812812 | 5581421 | 0 | ... | 0 | 35
+2 | All_States | 1992 | 2963061 | 5941502 | 2862291 | 5777889 | 0 | ... | 0 | 38
+3 | All_States | 1993 | 2917053 | 5828928 | 2846298 | 5712493 | 1 | ... | 0 | 47
+4 | All_States | 1994 | 3018906 | 5942498 | 2937673 | 5814595 | 0 | ... | 1 | 32
 
 
 Next, data analysis utilizing pandas, numpy and seaborn. The data was manipulated to visualize the amount of migrations per year, and the amount and type of natural disasters per year. Further analysis was taken to understand the correlations between migration and disaster types in the for of pure statistics as well as heat maps. 
